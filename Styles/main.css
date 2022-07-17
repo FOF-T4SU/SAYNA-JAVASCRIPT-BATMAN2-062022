@@ -1,0 +1,753 @@
+@font-face {
+  font-family: "Rajdhani";
+  src: url("../../Assets/Polices/rajdhani-medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Space Grotesk Regular";
+  src: url("../../Assets/Polices/space-grotesk-regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Space Grotesk Bold";
+  src: url("../../Assets/Polices/space-grotesk-bold.otf") format("opentype");
+}
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Space Grotesk Regular", Tahoma, sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-family: "Rajdhani", Verdana, sans-serif;
+  padding: 10px 0px;
+  margin: 15px 0px;
+  font-size: 36px;
+}
+
+button {
+  font-family: "Rajdhani", Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+.card div {
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 45px;
+}
+header div {
+  display: block;
+  z-index: 100;
+}
+header ul {
+  display: block;
+  z-index: 100;
+}
+header li {
+  display: inline-block;
+  list-style: none;
+  padding: 15px;
+}
+header a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 22px;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("../../Assets/Polices/rajdhani-medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Space Grotesk Regular";
+  src: url("../../Assets/Polices/space-grotesk-regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Space Grotesk Bold";
+  src: url("../../Assets/Polices/space-grotesk-bold.otf") format("opentype");
+}
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Space Grotesk Regular", Tahoma, sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-family: "Rajdhani", Verdana, sans-serif;
+  padding: 10px 0px;
+  margin: 15px 0px;
+  font-size: 36px;
+}
+
+button {
+  font-family: "Rajdhani", Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+.card div {
+  text-align: center;
+}
+
+.social {
+  position: fixed;
+  top: 300px;
+  right: 0px;
+  z-index: 100;
+}
+.social img {
+  display: block;
+  margin: 30px 60px;
+}
+.social img[alt*=icon] {
+  margin-left: 100px;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("../../Assets/Polices/rajdhani-medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Space Grotesk Regular";
+  src: url("../../Assets/Polices/space-grotesk-regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Space Grotesk Bold";
+  src: url("../../Assets/Polices/space-grotesk-bold.otf") format("opentype");
+}
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Space Grotesk Regular", Tahoma, sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-family: "Rajdhani", Verdana, sans-serif;
+  padding: 10px 0px;
+  margin: 15px 0px;
+  font-size: 36px;
+}
+
+button {
+  font-family: "Rajdhani", Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+.card div {
+  text-align: center;
+}
+
+footer {
+  padding: 20vh 0px;
+  height: 70vh;
+}
+footer div {
+  text-align: center;
+}
+footer span {
+  font-size: 12px;
+  position: relative;
+  top: -20px;
+}
+footer img {
+  margin: 15px;
+}
+footer img[alt=logo_x],
+footer img[alt=logo_fb],
+footer img[alt=logo_tw],
+footer img[alt=logo_ig] {
+  position: relative;
+  top: -10px;
+}
+
+#hero {
+  background-image: url("../../Assets/Illustrations/Home/Bathome1.png");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-size: cover;
+  position: relative;
+  top: -140px;
+  min-height: 900px;
+}
+#hero .container {
+  width: 35%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 300px;
+}
+#hero .button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero button {
+  margin: 15px 0px;
+  padding: 15px;
+  background: linear-gradient(180deg, #c4c4c4 20%, #19587d);
+  opacity: 40%;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+#hero button:hover {
+  background: linear-gradient(180deg, #c4c4c4 20%, #19587d);
+  opacity: 100%;
+}
+#hero img {
+  position: relative;
+  top: 130px;
+}
+
+#batman {
+  padding: 0px 30px;
+}
+#batman p {
+  width: 70%;
+  text-align: justify;
+}
+
+#nemesis {
+  padding: 0px 30px;
+}
+#nemesis p {
+  width: 70%;
+  text-align: justify;
+}
+#nemesis .shuriken {
+  position: relative;
+  left: 100px;
+  top: 50px;
+}
+
+#allies {
+  padding: 0px 30px;
+}
+#allies p {
+  width: 70%;
+  text-align: justify;
+}
+#allies .black_bat {
+  position: relative;
+  right: -750px;
+  top: 50px;
+}
+
+#league h2,
+#league p {
+  width: 80%;
+  margin: auto;
+}
+
+#multimedia .annonce {
+  display: flex;
+  justify-content: center;
+}
+#multimedia .annonce img {
+  border-top: 1px solid #c4c4c4;
+  border-left: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+  border-radius: 25px 0px 0px 25px;
+}
+#multimedia .annonce div {
+  width: 50%;
+  padding: 15px;
+  background: linear-gradient(120deg, #0d0e09 40%, #19587d);
+  border-top: 1px solid #c4c4c4;
+  border-right: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+  border-radius: 0px 25px 25px 0px;
+}
+#multimedia .annonce span {
+  color: #f8f184;
+}
+#multimedia img[alt*=gauche] {
+  float: left;
+  position: relative;
+  top: 100px;
+}
+#multimedia img[alt*=droite] {
+  float: right;
+  position: relative;
+  top: -150px;
+}
+
+#contact {
+  background: linear-gradient(135deg, #0d0e09 50%, #19587d 100%);
+  margin: 50px 0px;
+  padding: 30px 0px;
+}
+#contact h2 {
+  text-align: center;
+}
+#contact form {
+  width: 80%;
+  margin: auto;
+  font-size: 22px;
+}
+#contact form p {
+  padding: 15px 0px;
+}
+#contact form select,
+#contact form option {
+  width: 100%;
+  font-size: 18px;
+  border-bottom: 2px solid #bcbbbd;
+  color: #bcbbbd;
+  padding: 15px 0px;
+  background: none;
+}
+#contact form input[type=radio] {
+  display: none;
+}
+#contact form label[for=film],
+#contact form label[for=comic],
+#contact form label[for=tout] {
+  border: 1px solid #19587d;
+  background: none;
+  display: inline-block;
+  color: #ffffff;
+  padding: 15px;
+  margin: 15px;
+}
+#contact form label[for=film]:hover,
+#contact form label[for=comic]:hover,
+#contact form label[for=tout]:hover {
+  background: linear-gradient(135deg, #eddebf, #19587d);
+  opacity: 100%;
+}
+#contact form input[type=submit] {
+  margin: auto;
+  padding: 15px 30px;
+  border: none;
+  background: linear-gradient(90deg, #eddebf, #b11313);
+  opacity: 40%;
+  color: #ffffff;
+}
+#contact form input[type=submit]:hover {
+  opacity: 100%;
+}
+#contact form .saisi {
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid #bcbbbd;
+  background: none;
+}
+
+#citation {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0px;
+  padding: 50px 50px;
+}
+#citation div:not(div[class=container]) {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+#citation div:not(div[class=container]) p {
+  margin: 30px 0px;
+}
+#citation div:not(div[class=container]) .auteur {
+  color: #c4c4c4;
+  width: 65%;
+  margin: auto;
+}
+#citation img[alt*=gauche] {
+  float: left;
+  position: relative;
+  top: -50px;
+}
+#citation img[alt*=droite] {
+  float: right;
+  position: relative;
+  top: 50px;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("../../Assets/Polices/rajdhani-medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Space Grotesk Regular";
+  src: url("../../Assets/Polices/space-grotesk-regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Space Grotesk Bold";
+  src: url("../../Assets/Polices/space-grotesk-bold.otf") format("opentype");
+}
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Space Grotesk Regular", Tahoma, sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-family: "Rajdhani", Verdana, sans-serif;
+  padding: 10px 0px;
+  margin: 15px 0px;
+  font-size: 36px;
+}
+
+button {
+  font-family: "Rajdhani", Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+.card div {
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 45px;
+}
+header div {
+  display: block;
+  z-index: 100;
+}
+header ul {
+  display: block;
+  z-index: 100;
+}
+header li {
+  display: inline-block;
+  list-style: none;
+  padding: 15px;
+}
+header a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 22px;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("../../Assets/Polices/rajdhani-medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Space Grotesk Regular";
+  src: url("../../Assets/Polices/space-grotesk-regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Space Grotesk Bold";
+  src: url("../../Assets/Polices/space-grotesk-bold.otf") format("opentype");
+}
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Space Grotesk Regular", Tahoma, sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-family: "Rajdhani", Verdana, sans-serif;
+  padding: 10px 0px;
+  margin: 15px 0px;
+  font-size: 36px;
+}
+
+button {
+  font-family: "Rajdhani", Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+.card div {
+  text-align: center;
+}
+
+.social {
+  position: fixed;
+  top: 300px;
+  right: 0px;
+  z-index: 100;
+}
+.social img {
+  display: block;
+  margin: 30px 60px;
+}
+.social img[alt*=icon] {
+  margin-left: 100px;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("../../Assets/Polices/rajdhani-medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Space Grotesk Regular";
+  src: url("../../Assets/Polices/space-grotesk-regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Space Grotesk Bold";
+  src: url("../../Assets/Polices/space-grotesk-bold.otf") format("opentype");
+}
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Space Grotesk Regular", Tahoma, sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-family: "Rajdhani", Verdana, sans-serif;
+  padding: 10px 0px;
+  margin: 15px 0px;
+  font-size: 36px;
+}
+
+button {
+  font-family: "Rajdhani", Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+.card div {
+  text-align: center;
+}
+
+footer {
+  padding: 20vh 0px;
+  height: 70vh;
+}
+footer div {
+  text-align: center;
+}
+footer span {
+  font-size: 12px;
+  position: relative;
+  top: -20px;
+}
+footer img {
+  margin: 15px;
+}
+footer img[alt=logo_x],
+footer img[alt=logo_fb],
+footer img[alt=logo_tw],
+footer img[alt=logo_ig] {
+  position: relative;
+  top: -10px;
+}
+
+#hero_game {
+  background-image: url("../../Assets/Illustrations/Game/Batgame_1.png");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-size: cover;
+  position: relative;
+  top: -140px;
+  min-height: 900px;
+}
+#hero_game .container {
+  width: 35%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 300px;
+}
+#hero_game h2 {
+  width: 450px;
+  text-transform: uppercase;
+  position: relative;
+  left: -250px;
+  font-size: 64px;
+}
+#hero_game img {
+  position: relative;
+  top: 450px;
+}
+
+#begin {
+  visibility: visible;
+}
+#begin .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#begin h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 15px;
+  margin: 15px;
+}
+
+#quizz {
+  position: absolute;
+  top: 200%;
+  left: 450px;
+  visibility: hidden;
+}
+#quizz .container {
+  width: 600px;
+}
+#quizz .container .numQ {
+  font-weight: bold;
+  font-size: 22px;
+  position: relative;
+  top: -125px;
+  left: 125px;
+}
+#quizz .container form p {
+  background: #bcbbbd;
+  margin: 15px 0px;
+  padding: 0px 15px;
+}
+#quizz .container form p label {
+  padding: 10px 400px 10px 10px;
+}
+#quizz .container img[alt*=img] {
+  visibility: hidden;
+}
+#quizz .container img[alt*=img1] {
+  position: absolute;
+  top: -25%;
+  left: -350px;
+}
+#quizz .container img[alt*=img2] {
+  position: absolute;
+  top: 125%;
+  left: -300px;
+}
+#quizz .container img[alt=img2Q10] {
+  position: absolute;
+  top: -45%;
+  left: 400px;
+}
+#quizz .container img[alt*=img3] {
+  position: absolute;
+  top: 50%;
+  left: 500px;
+}
+
+#button .container {
+  display: flex;
+}
+#button input[type=button] {
+  margin: 15px auto;
+  padding: 15px 60px;
+  border: none;
+  background: linear-gradient(135deg, #eddebf, #e7a730);
+  opacity: 70%;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#button input[type=button]:hover {
+  opacity: 100%;
+}
+#button input[type=button]:active {
+  transform: scale(1.1);
+}/*# sourceMappingURL=main.css.map */

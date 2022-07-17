@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman | Game</title>
+    <link rel="stylesheet" href="./Styles/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <nav>
+                <div>
+                    <a href="#"><img src="Assets/Logos/logohome.png" alt="logo"></a>
+                </div>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="game.html">GAME</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- SOCIAL FIXE -->
+        <div class="social">
+            <a href="#"><img src="Assets/Logos/logo_bat_flèche.png" alt="fleche_bat_haut"></a>
+            <a href="#"><img src="Assets/Logos/icon_facebook.png" alt="icon_facebook"></a>
+            <a href="#"><img src="Assets/Logos/icon_ig.png" alt="icon_instagram"></a>
+            <a href="#"><img src="Assets/Logos/icon_tw.png" alt="icon_twitter"></a>
+            <a href="#"><img src="Assets/Logos/logo_bat_flèche_2.png" alt="fleche_bat_bas"></a>
+        </div>
+
+        <!-- HEROS -->
+        <section id="hero_game">
+            <div class="container">
+                <h2>let's play a little game...</h2>
+                <img src="Assets/Logos/flèche_down_header.png" alt="fleche_bas">
+            </div>
+        </section>
+
+        <!-- BeginQuestion -->
+        <section id="begin">
+            <div class="container">
+                <div>
+                    <h4>connaissez-vous bien le chevalier noir ?</h4>
+                    <img src="Assets/Illustrations/Game/Batgame_2.png" alt="chevalier_noir">
+                </div>
+            </div>
+        </section>
+
+        <!-- Questions -->
+        <section id="quizz">
+            <div class="container">
+                <div class="numQ">
+                    <span>1</span>
+                    <span>/</span>
+                    <span>15</span>
+                </div>
+                <div class="question">
+                    <!-- Les questions -->
+                    <p>Quel est l'autre nom de l'Homme-Mystere?</p>
+                    <form id="forme">
+                        <p><input type="radio" name="reponse" id="reponse1"><label for="reponse1" id="choix1">Le Sphinx</label></p>
+                        <p><input type="radio" name="reponse" id="reponse2"><label for="reponse2" id="choix2">Saphir</label></p>
+                        <p><input type="radio" name="reponse" id="reponse3"><label for="reponse3" id="choix3">Le Joker</label></p>
+                    </form>
+                </div>
+                <!-- Les images -->
+                <img src="Assets/Illustrations/Game/Batgame_3.png" alt="img1Q1" id="q1i1">
+                <img src="Assets/Illustrations/Game/Batgame_4.png" alt="img1Q2" id="q2i1">
+                <img src="Assets/Illustrations/Game/Batgame_5.png" alt="img1Q3" id="q3i1">
+                <img src="Assets/Illustrations/Game/Batgame_6.png" alt="imgQ41" id="q4i1">
+                <img src="Assets/Illustrations/Game/Batgame_7.png" alt="img1Q5" id="q5i1">
+                <img src="Assets/Illustrations/Game/Batgame_8.png" alt="img1Q6" id="q6i1">
+                <img src="Assets/Illustrations/Game/Batgame_9.png" alt="img2Q6" id="q6i2">
+                <img src="Assets/Illustrations/Game/Batgame_9-1.png" alt="img3Q6" id="q6i3">
+                <img src="Assets/Illustrations/Game/Batgame_10.png" alt="img1Q7" id="q7i1">
+                <img src="Assets/Illustrations/Game/Batgame_11.png" alt="img1Q8" id="q8i1">
+                <img src="Assets/Illustrations/Game/Batgame_12.png" alt="img1Q9" id="q9i1">
+                <img src="Assets/Illustrations/Game/Batgame_13.png" alt="img2Q9" id="q9i2">
+                <img src="Assets/Illustrations/Game/Batgame_13-1.png" alt="img3Q9" id="q9i3">
+                <img src="Assets/Illustrations/Game/Batgame_14.png" alt="img1Q10" id="q10i1">
+                <img src="Assets/Illustrations/Game/Batgame_15.png" alt="img2Q10" id="q10i2">
+                <img src="Assets/Illustrations/Game/Batgame_16.png" alt="img3Q10" id="q10i3">
+                <img src="Assets/Illustrations/Game/Batgame_17.png" alt="img1Q11" id="q11i1">
+                <img src="Assets/Illustrations/Game/Batgame_18.png" alt="img1Q12" id="q12i1">
+                <img src="Assets/Illustrations/Game/Batgame_19.png" alt="img1Q13" id="q13i1">
+                <img src="Assets/Illustrations/Game/Batgame_20.png" alt="img1Q14" id="q14i1">
+                <img src="Assets/Illustrations/Game/Batgame_21.png" alt="img1Q15" id="q15i1">
+            </div>
+        </section>
+
+        <section id="button">
+            <div class="container">
+                <input type="button" value="Demarrer le quiz" id="valider" onclick="change()">
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div>
+            <img src="Assets/Logos/icon_WB.png" alt="wb">
+            <span>Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves.</span>
+        </div>
+        <div>
+            <img src="Assets/Logos/logo_sayna_white.png" alt="logo_sayna">
+            <img src="Assets/Logos/icon_x.png" alt="logo_x">
+            <img src="Assets/Logos/icon_DC.png" alt="logo_dc">
+            <img src="Assets/Logos/icon_facebook.png" alt="logo_fb">
+            <img src="Assets/Logos/icon_ig.png" alt="logo_ig">
+            <img src="Assets/Logos/icon_tw.png" alt="logo_tw">
+        </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="Script/game/game.js"></script>
+</body>
+
+</html>

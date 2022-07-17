@@ -1,0 +1,123 @@
+@import "../component/header";
+@import "../component/fixed";
+@import "../component/footer";
+// Design De la section hero
+#hero_game {
+    background-image: url("../../Assets/Illustrations/Game/Batgame_1.png");
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: cover;
+    position: relative;
+    top: -140px;
+    min-height: 900px;
+    .container {
+        width: 35%;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        top: 300px;
+    }
+    h2 {
+        width: 450px;
+        text-transform: uppercase;
+        position: relative;
+        left: -250px;
+        font-size: 64px;
+    }
+    img {
+        position: relative;
+        top: 450px;
+    }
+}
+
+// Design de la section beginQuestion
+#begin {
+    visibility: visible;
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h4 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 22px;
+        padding: 15px;
+        margin: 15px;
+    }
+}
+
+// Design des question
+#quizz {
+    position: absolute;
+    top: 200%;
+    left: 450px;
+    visibility: hidden;
+    .container {
+        width: 600px;
+        .numQ {
+            font-weight: bold;
+            font-size: 22px;
+            position: relative;
+            top: -125px;
+            left: 125px;
+        }
+        form {
+            p {
+                background: $gray_bat;
+                margin: 15px 0px;
+                padding: 0px 15px;
+                label {
+                    padding: 10px 400px 10px 10px;
+                }
+            }
+        }
+        // Style pour les images
+        img[alt*="img"] {
+            visibility: hidden;
+        }
+        img[alt*="img1"] {
+            position: absolute;
+            top: -25%;
+            left: -350px;
+        }
+        img[alt*="img2"] {
+            position: absolute;
+            top: 125%;
+            left: -300px;
+        }
+        img[alt="img2Q10"] {
+            position: absolute;
+            top: -45%;
+            left: 400px;
+        }
+        img[alt*="img3"] {
+            position: absolute;
+            top: 50%;
+            left: 500px;
+        }
+    }
+}
+
+#button {
+    .container {
+        display: flex;
+    }
+    input[type="button"] {
+        margin: 15px auto;
+        padding: 15px 60px;
+        border: none;
+        background: linear-gradient(135deg, $transparent, $orange);
+        opacity: 70%;
+        color: $white;
+        text-transform: uppercase;
+        cursor: pointer;
+        &:hover {
+            opacity: 100%;
+        }
+        &:active {
+            transform: scale(1.1);
+        }
+    }
+}
