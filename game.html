@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Batman | Game</title>
     <link rel="stylesheet" href="./Styles/main.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
 </head>
 
 <body>
@@ -58,51 +56,30 @@
             </div>
         </section>
 
-        <!-- Questions -->
+        <!-- Questionnaire -->
         <section id="quizz">
             <div class="container">
-                <div class="numQ">
-                    <span>1</span>
-                    <span>/</span>
-                    <span>15</span>
+                <div class="numero">
+                    <span id="numquest">1</span>
+                    <span> / </span>
+                    <span>10</span>
                 </div>
-                <div class="question">
-                    <!-- Les questions -->
-                    <p>Quel est l'autre nom de l'Homme-Mystere?</p>
-                    <form id="forme">
-                        <p><input type="radio" name="reponse" id="reponse1"><label for="reponse1" id="choix1">Le Sphinx</label></p>
-                        <p><input type="radio" name="reponse" id="reponse2"><label for="reponse2" id="choix2">Saphir</label></p>
-                        <p><input type="radio" name="reponse" id="reponse3"><label for="reponse3" id="choix3">Le Joker</label></p>
+                <div id="decor">
+                    <p id="question">Quel est l'autre nom de l'Homme-Mystere?</p>
+                    <form id="reponse">
+                        <label id="reponse1"><input type="radio" name="reponse">Saphir</label>
+                        <label id="reponse2"><input type="radio" name="reponse">Sphinx</label>
+                        <label id="reponse3"><input type="radio" name="reponse">Joker</label>
                     </form>
+                    <img src="Assets/Illustrations/Game/Batgame_6.png" alt="img1" id="i1">
+                    <img src="Assets/Illustrations/Game/Batgame_5.png" alt="img2" id="i2">
                 </div>
-                <!-- Les images -->
-                <img src="Assets/Illustrations/Game/Batgame_3.png" alt="img1Q1" id="q1i1">
-                <img src="Assets/Illustrations/Game/Batgame_4.png" alt="img1Q2" id="q2i1">
-                <img src="Assets/Illustrations/Game/Batgame_5.png" alt="img1Q3" id="q3i1">
-                <img src="Assets/Illustrations/Game/Batgame_6.png" alt="imgQ41" id="q4i1">
-                <img src="Assets/Illustrations/Game/Batgame_7.png" alt="img1Q5" id="q5i1">
-                <img src="Assets/Illustrations/Game/Batgame_8.png" alt="img1Q6" id="q6i1">
-                <img src="Assets/Illustrations/Game/Batgame_9.png" alt="img2Q6" id="q6i2">
-                <img src="Assets/Illustrations/Game/Batgame_9-1.png" alt="img3Q6" id="q6i3">
-                <img src="Assets/Illustrations/Game/Batgame_10.png" alt="img1Q7" id="q7i1">
-                <img src="Assets/Illustrations/Game/Batgame_11.png" alt="img1Q8" id="q8i1">
-                <img src="Assets/Illustrations/Game/Batgame_12.png" alt="img1Q9" id="q9i1">
-                <img src="Assets/Illustrations/Game/Batgame_13.png" alt="img2Q9" id="q9i2">
-                <img src="Assets/Illustrations/Game/Batgame_13-1.png" alt="img3Q9" id="q9i3">
-                <img src="Assets/Illustrations/Game/Batgame_14.png" alt="img1Q10" id="q10i1">
-                <img src="Assets/Illustrations/Game/Batgame_15.png" alt="img2Q10" id="q10i2">
-                <img src="Assets/Illustrations/Game/Batgame_16.png" alt="img3Q10" id="q10i3">
-                <img src="Assets/Illustrations/Game/Batgame_17.png" alt="img1Q11" id="q11i1">
-                <img src="Assets/Illustrations/Game/Batgame_18.png" alt="img1Q12" id="q12i1">
-                <img src="Assets/Illustrations/Game/Batgame_19.png" alt="img1Q13" id="q13i1">
-                <img src="Assets/Illustrations/Game/Batgame_20.png" alt="img1Q14" id="q14i1">
-                <img src="Assets/Illustrations/Game/Batgame_21.png" alt="img1Q15" id="q15i1">
             </div>
         </section>
 
         <section id="button">
             <div class="container">
-                <input type="button" value="Demarrer le quiz" id="valider" onclick="change()">
+                <input type="button" value="Demarrer le quiz" id="valid">
             </div>
         </section>
 
@@ -110,7 +87,7 @@
 
     <!-- FOOTER -->
     <footer>
-        <div>
+        <div id="copy">
             <img src="Assets/Logos/icon_WB.png" alt="wb">
             <span>Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves.</span>
         </div>
@@ -125,7 +102,9 @@
     </footer>
 
     <!-- SCRIPT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="Script/game/game.js"></script>
+    <script src="Script/game/script.js"></script>
 </body>
 
 </html>

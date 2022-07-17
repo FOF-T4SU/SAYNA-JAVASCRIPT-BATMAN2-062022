@@ -32,7 +32,6 @@
 
 // Design de la section beginQuestion
 #begin {
-    visibility: visible;
     .container {
         display: flex;
         flex-direction: column;
@@ -56,46 +55,38 @@
     visibility: hidden;
     .container {
         width: 600px;
-        .numQ {
+        .numero {
             font-weight: bold;
             font-size: 22px;
             position: relative;
             top: -125px;
             left: 125px;
         }
-        form {
-            p {
-                background: $gray_bat;
-                margin: 15px 0px;
-                padding: 0px 15px;
+        #decor {
+            #reponse {
                 label {
-                    padding: 10px 400px 10px 10px;
+                    display: block;
+                    padding: 5px 15px;
+                    margin: 15px auto;
+                    width: 600px;
+                    background: $gray_bat;
+                    input {
+                        margin: 10px;
+                    }
                 }
             }
-        }
-        // Style pour les images
-        img[alt*="img"] {
-            visibility: hidden;
-        }
-        img[alt*="img1"] {
-            position: absolute;
-            top: -25%;
-            left: -350px;
-        }
-        img[alt*="img2"] {
-            position: absolute;
-            top: 125%;
-            left: -300px;
-        }
-        img[alt="img2Q10"] {
-            position: absolute;
-            top: -45%;
-            left: 400px;
-        }
-        img[alt*="img3"] {
-            position: absolute;
-            top: 50%;
-            left: 500px;
+            img {
+                &[alt="img1"] {
+                    position: absolute;
+                    top: -35%;
+                    left: -350px;
+                }
+                &[alt="img2"] {
+                    position: absolute;
+                    top: 50%;
+                    left: 450px;
+                }
+            }
         }
     }
 }
@@ -104,7 +95,7 @@
     .container {
         display: flex;
     }
-    input[type="button"] {
+    input {
         margin: 15px auto;
         padding: 15px 60px;
         border: none;

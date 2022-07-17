@@ -667,9 +667,6 @@ footer img[alt=logo_ig] {
   top: 450px;
 }
 
-#begin {
-  visibility: visible;
-}
 #begin .container {
   display: flex;
   flex-direction: column;
@@ -693,49 +690,38 @@ footer img[alt=logo_ig] {
 #quizz .container {
   width: 600px;
 }
-#quizz .container .numQ {
+#quizz .container .numero {
   font-weight: bold;
   font-size: 22px;
   position: relative;
   top: -125px;
   left: 125px;
 }
-#quizz .container form p {
+#quizz .container #decor #reponse label {
+  display: block;
+  padding: 5px 15px;
+  margin: 15px auto;
+  width: 600px;
   background: #bcbbbd;
-  margin: 15px 0px;
-  padding: 0px 15px;
 }
-#quizz .container form p label {
-  padding: 10px 400px 10px 10px;
+#quizz .container #decor #reponse label input {
+  margin: 10px;
 }
-#quizz .container img[alt*=img] {
-  visibility: hidden;
-}
-#quizz .container img[alt*=img1] {
+#quizz .container #decor img[alt=img1] {
   position: absolute;
-  top: -25%;
+  top: -35%;
   left: -350px;
 }
-#quizz .container img[alt*=img2] {
-  position: absolute;
-  top: 125%;
-  left: -300px;
-}
-#quizz .container img[alt=img2Q10] {
-  position: absolute;
-  top: -45%;
-  left: 400px;
-}
-#quizz .container img[alt*=img3] {
+#quizz .container #decor img[alt=img2] {
   position: absolute;
   top: 50%;
-  left: 500px;
+  left: 450px;
 }
 
 #button .container {
   display: flex;
 }
-#button input[type=button] {
+#button input {
   margin: 15px auto;
   padding: 15px 60px;
   border: none;
@@ -745,9 +731,9 @@ footer img[alt=logo_ig] {
   text-transform: uppercase;
   cursor: pointer;
 }
-#button input[type=button]:hover {
+#button input:hover {
   opacity: 100%;
 }
-#button input[type=button]:active {
+#button input:active {
   transform: scale(1.1);
 }/*# sourceMappingURL=main.css.map */
